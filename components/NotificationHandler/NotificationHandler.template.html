@@ -1,0 +1,9 @@
+<div class="root">
+  <button @click="triggerOpen(true)">Abrir</button>
+
+	<teleport to="#tp_notification_alert">
+		<div class="modal" v-if="isOpen">
+	    <ModalContent :heading="'Alerta'" :message="'Mensagem de alerta'" @closeModal="triggerOpen(false)" />
+	  </div>
+	</teleport>
+</div>

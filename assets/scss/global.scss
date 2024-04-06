@@ -1,0 +1,16 @@
+@import 'variables';
+
+.k-border {
+  @include k-border;
+}
+
+.app-overlay {
+  @include fade-in(.8, 0, 5);
+  @include general-overlay(#FFFFFF, .7, 4px);
+}
+
+.k-border-debug {
+  //@include k-border-debug;
+}
+
+//@forward "variables";

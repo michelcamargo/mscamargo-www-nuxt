@@ -1,0 +1,11 @@
+.root_wrapper {
+  display: block;
+  position: relative;
+
+  .app_overlay {}
+
+  .root_content {
+    z-index: 7;
+    transition: opacity 0.1s ease-in-out;
+  }
+}

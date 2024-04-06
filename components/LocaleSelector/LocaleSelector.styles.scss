@@ -1,0 +1,29 @@
+.locale_button {
+  padding: 2px 6px;
+  border-radius: 4px;
+
+  &:hover {
+    background: rgba(0,0,0, 0.05);
+  }
+
+  .locale_flag {
+    background: blue;
+  }
+
+  .locale_language {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+
+    .language_label {
+      font-size: 12px;
+      margin-right: 4px;
+    }
+    .language_intLabel {
+      font-size: 10px;
+      font-weight: bold;
+    }
+  }
+}
+
+

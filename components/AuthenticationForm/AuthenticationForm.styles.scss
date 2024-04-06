@@ -1,0 +1,20 @@
+.form_fieldWrapper {
+  display: flex;
+  flex-direction: column;
+
+  .form_fieldLabel {
+    display: block;
+
+    .form_fieldLabelText {
+      font-size: 16px;
+    }
+  }
+
+  .form_fieldInput {
+
+  }
+
+  .field_inputText {
+
+  }
+}

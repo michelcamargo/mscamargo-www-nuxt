@@ -1,0 +1,30 @@
+<div class="form_wrapper justify-content-center d-flex">
+	<form @submit.prevent="submit">
+		<template v-if="isSignUp">
+			<div class="form_fieldWrapper" >
+				<label class="form_fieldLabel" for="secret">
+					<span class="form_fieldLabelText">Nome</span>
+				</label>
+				<input name="name" type="text" v-model="form.name" placeholder="Informe seu nome" />
+			</div>
+		</template>
+
+		<div class="form_fieldWrapper">
+			<label class="form_fieldLabel" for="email">
+				<span class="form_fieldLabelText">Email</span>
+			</label>
+			<input name="email" type="text" v-model="form.email" placeholder="Insira seu email" />
+		</div>
+
+		<template v-if="isLoginAble">
+			<div class="form_fieldWrapper">
+				<label class="form_fieldLabel" for="secret">
+					<span class="form_fieldLabelText">Senha</span>
+				</label>
+				<input name="secret" type="text" v-model="form.secret" placeholder="Insira sua senha" />
+			</div>
+		</template>
+
+		<button type="submit">{{(form.email && form.secret) ? 'Entrar' : 'Continuar' }}</button>
+	</form>
+</div>

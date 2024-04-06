@@ -1,0 +1,12 @@
+@import '../../assets/scss/variables';
+
+.root_overlay {
+  .overlay_busy {
+
+  }
+
+  .app-overlay {
+    @include fade-in(.8, 0, 5);
+    @include general-overlay(#FFFFFF, .7, 4px);
+  }
+}

@@ -1,0 +1,8 @@
+.root_wrapper {
+  display: block;
+  position: relative;
+
+  .root_content {
+    z-index: 7;
+  }
+}

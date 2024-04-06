@@ -1,0 +1,11 @@
+<div>
+	<button @click="localeSelectHandler()" class="btn btn-outline locale_button">
+		<span class="locale_flag" v-if="locale.icon">
+			{{locale.icon.toString()}}
+		</span>
+		<span class="locale_language">
+			<span class="language_label">{{locale.label}}</span>
+			<span class="language_label language_intLabel">{{locale.intLabel}}</span>
+		</span>
+	</button>
+</div>

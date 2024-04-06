@@ -1,0 +1,38 @@
+<div>
+	<form @submit.prevent="submit">
+		<fieldset class="form_fieldSet">
+			<legend class="form_heading">Entre em contato!</legend>
+
+			<div class="form_fieldRow">
+				<div class="form_fieldWrapper">
+					<label class="form_fieldLabel" for="name">
+						<span class="form_fieldLabelText">*</span>
+						<span class="form_fieldLabelText">Nome</span>
+					</label>
+					<input
+						name="name"
+						class="form_fieldInput field_inputText"
+						type="text"
+						v-model="form.name"
+						placeholder="Informe seu nome"
+					/>
+				</div>
+
+				<div class="form_fieldWrapper">
+					<label class="form_fieldLabel" for="email">
+						<span class="form_fieldLabelText">*</span>
+						<span class="form_fieldLabelText">Email</span>
+					</label>
+					<input
+						name="email"
+						class="form_fieldInput field_inputText"
+				    type="text"
+						v-model="form.email"
+						placeholder="Informe seu email"
+					/>
+				</div>
+			</div>
+		</fieldset>
+		<button class="btn btn-success" type="submit">Enviar</button>
+	</form>
+</div>
