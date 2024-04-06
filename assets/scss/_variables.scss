@@ -1,22 +1,9 @@
+// variables
 $color-primary: #0074d9;
 $color-secondary: #7fdbff;
 $color-tertiary: #39cccc;
-// variables
-
-$dandy: purple;
 
 // mixins
-
-@mixin k-border {
-  border: 1px solid lightgray;
-  border-radius: 4px;
-}
-
-@mixin k-border-debug {
-  border: 1px dotted red;
-  border-radius: 4px;
-}
-
 @mixin general-overlay($in_color: #FFFFFF, $in_opacity: .7, $in_blur: 4px) {
   top: 0;
   left: 0;

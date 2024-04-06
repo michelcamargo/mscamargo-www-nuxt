@@ -1,9 +1,10 @@
 .locale_button {
-  padding: 2px 6px;
+  padding: 0;
+  border: none;
   border-radius: 4px;
 
   &:hover {
-    background: rgba(0,0,0, 0.05);
+    background: rgba(0,0,0, 0.03);
   }
 
   .locale_flag {

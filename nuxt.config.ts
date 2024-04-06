@@ -3,9 +3,11 @@ import {fileURLToPath} from "url";
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
+  colorMode: {
+    classSuffix: '',
+    preference: 'light'
+  },
   pages: true,
-  // srcDir: 'src/',
-  css: ['@/assets/scss/main.scss', 'bootstrap/dist/css/bootstrap.min.css'],
   alias: {
     assets: "/<rootDir>/assets",
   },

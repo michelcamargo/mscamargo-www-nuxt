@@ -15,8 +15,5 @@
         socialItems
       }
     },
-    mounted() {
-      console.log('valores em socialItems:', socialItems);
-    }
   }
 </script>

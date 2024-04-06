@@ -1,12 +1,8 @@
-@import 'variables';
-
-.k-border {
-  @include k-border;
-}
+@use './variables';
 
 .app-overlay {
-  @include fade-in(.8, 0, 5);
-  @include general-overlay(#FFFFFF, .7, 4px);
+  @include variables.fade-in(.8, 0, 5);
+  @include variables.general-overlay(#FFFFFF, .7, 4px);
 }
 
 .k-border-debug {
