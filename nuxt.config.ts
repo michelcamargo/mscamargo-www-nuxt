@@ -35,6 +35,7 @@ export default defineNuxtConfig({
     "@nuxt/image",
     '@nuxt/ui',
     '@vueuse/nuxt',
-    '@nuxtjs/device'
+    '@nuxtjs/device',
+    "@nuxt/eslint"
   ]
 })
