@@ -1,6 +1,9 @@
-<div>
-	<ul>
-		<li v-for="social in socialItems" :key="social.key">
+<div class="SocialReferences_wrapper">
+	<ul class="SocialReferences_list">
+		<li class="SocialReferences_listItem"
+				v-for="social in socialItems"
+				:key="social.key"
+		>
 			<social-button :info=social />
 		</li>
 	</ul>

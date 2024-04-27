@@ -1,7 +1,5 @@
-// variables
-$color-primary: #0074d9;
-$color-secondary: #7fdbff;
-$color-tertiary: #39cccc;
+@import './fonts-faces';
+@import './colors';
 
 // mixins
 @mixin general-overlay($in_color: #FFFFFF, $in_opacity: .7, $in_blur: 4px) {

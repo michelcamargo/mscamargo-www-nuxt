@@ -5,8 +5,8 @@
   @include variables.general-overlay(#FFFFFF, .7, 4px);
 }
 
-.k-border-debug {
-  //@include k-border-debug;
+.debug {
+  background: variables.$color-primary;
 }
 
 //@forward "variables";

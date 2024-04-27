@@ -1,4 +1,12 @@
-<button @click="socialSelectHandler(info)" class="SocialButton_wrapper">
-		<span class="SocialButton_Icon">{{info.icon}}</span>
-		<span>{{info.label}}</span>
-</button>
+<UButton
+	@click="socialSelectHandler(info)"
+	class="SocialButton_wrapper"
+>
+		<img v-if="info.icon"
+			:src="info.icon"
+			class="SocialButton_icon"
+      :class="$colorMode && $colorMode?.value === 'dark' ? 'SocialButton_icon__dark' : 'SocialButton_icon__light'"
+			alt="ícone {{info.label}}"
+		/>
+		<span class="SocialButton_label">{{info.label}}</span>
+</UButton>

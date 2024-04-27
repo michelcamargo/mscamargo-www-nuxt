@@ -1,1 +1,16 @@
-
+.page_wrapper {
+  .container {
+    .heading_title {
+      font-size: 42px;
+      font-weight: 700;
+    }
+    .heading_subTitle {
+      font-size: 28px;
+      line-height: .8;
+      margin-bottom: 16px;
+    }
+    .heading_description {
+      font-size: 22px;
+    }
+  }
+}

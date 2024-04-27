@@ -14,5 +14,5 @@
       }
     },
     props: ['info'],
-  }
+  };
 </script>

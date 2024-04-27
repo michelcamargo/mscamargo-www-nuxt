@@ -1,0 +1,16 @@
+.SocialButton_wrapper {
+  .SocialButton_icon {}
+
+  .SocialButton_icon__light {
+    filter: brightness(0) invert(1);
+  }
+
+  .SocialButton_icon__dark {
+    filter: brightness(0) saturate(0%);
+  }
+
+
+  .SocialButton_label {
+    margin-left: 4px;
+  }
+}

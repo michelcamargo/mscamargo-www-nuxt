@@ -1,6 +1,6 @@
-import githubIcon from "@/assets/svg/social/github-outlined.svg";
-import instagramIcon from "@/assets/svg/social/instagram-outlined.svg";
-import linkedinIcon from "@/assets/svg/social/linkedin-inner.svg";
+import githubIcon from "@/assets/svg/social/github.svg";
+import instagramIcon from "@/assets/svg/social/instagram.svg";
+import linkedinIcon from "@/assets/svg/social/linkedin.svg";
 
 const STATIC_SOCIAL_LINKS = [
   {
@@ -8,21 +8,21 @@ const STATIC_SOCIAL_LINKS = [
 	  id: 'social-instagram',
 	  label: 'Instagram',
     link: 'https://instagram.com/michelcamargo',
-	  // icon: instagramIcon.src,
+	  icon: instagramIcon,
   },
 	{
     key: 1,
 	  id: 'social-linkedin',
 	  label: 'LinkedIn',
     link: 'https://www.linkedin.com/in/michelscamargo',
-	  // icon: linkedinIcon.src,
+	  icon: linkedinIcon,
   },
 	{
     key: 1,
 	  id: 'social-github',
 	  label: 'GitHub',
     link: 'https://github.com/michelcamargo',
-	  // icon: githubIcon.src,
+	  icon: githubIcon,
   },
 ];
 
